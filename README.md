@@ -9,6 +9,7 @@ The goal of the Kata is to improve Test driven design thinking. To succeed it is
 ## Rules
 
 - A word is a string of letters (A to Z) optionally containing one or more apostrophes (`'`) in ASCII.
+- There can be an arbitrary number of separators between words
 
 - Apostrophes can appear at the start, middle or end of a word (`'abc`, `abc'`, `'abc'`, `ab'c` are all valid).
 - Lone Apostrophes of groups of apostrophes are not to be considered a word.
