@@ -1,4 +1,5 @@
 ﻿using NUnit.Framework;
+using TopThreeWords;
 
 namespace TopThreeWords.Tests
 {
@@ -13,7 +14,7 @@ namespace TopThreeWords.Tests
         [Test]
         public void ThisStringIsVeryMessy()
         {
-            var result = TopThreeWords.FindTopThreeWords("ob'Wo_uEqFTnVK ob'Wo bzYS ewyEXFjCHu/ewyEXFjCHu bzYS-jHfHpUGCTf,ob'Wo TSdk Ukqq'hwx Cezsrd'x_uEqFTnVK.fFPIcBg jHfHpUGCTf" +
+            var result = Kata.TopThreeWords.FindTopThreeWords("ob'Wo_uEqFTnVK ob'Wo bzYS ewyEXFjCHu/ewyEXFjCHu bzYS-jHfHpUGCTf,ob'Wo TSdk Ukqq'hwx Cezsrd'x_uEqFTnVK.fFPIcBg jHfHpUGCTf" +
                 " UtzVubcgme fFPIcBg_UtzVubcgme uEqFTnVK!UtzVubcgme/ob'Wo?fFPIcBg uEqFTnVK hHdmfPe bzYS fFPIcBg_bzYS yLFbcLLG?Ukqq'hwx!bzYS/ob'Wo TSdk.lfv TSdk UtzVubcgme fFPIcBg-" +
                 "JtmKlciEX UtzVubcgme fFPIcBg fFPIcBg.UtzVubcgme jHfHpUGCTf ob'Wo!bzYS;lfv:bzYS hHdmfPe JuWrnkTr,TSdk Cezsrd'x!fFPIcBg/Cezsrd'x?fFPIcBg fFPIcBg ob'Wo bzYS icNKazGI bzYS " +
                 "uEqFTnVK fFPIcBg.Cezsrd'x hHdmfPe_UtzVubcgme-ewyEXFjCHu jHfHpUGCTf:rfMbSoYKO jHfHpUGCTf?UtzVubcgme hHdmfPe/ob'Wo TSdk;fFPIcBg ewyEXFjCHu?UtzVubcgme:ob'Wo/" +
@@ -282,7 +283,10 @@ namespace TopThreeWords.Tests
                 "" +
                 "KtoM / dBjeNBRBK qwFrUMvDsL,KtoM; jAX'Cfns bPRWxTRXT.MfnmsnC KtoM mhJ'r qwFrUMvDsL:jAX'Cfns MkdQK_ydxQb MfnmsnC.wNGdDVp!MkdQK qwFrUMvDsL.wNGdDVp ydxQb adOZIYw?mhJ'r ydxQb, adOZIYw, adOZIYw?iHJmNjG: ydxQb.iHJmNjG KtoM wNGdDVp_iHJmNjG!MkdQK,bPRWxTRXT qwFrUMvDsL:ydxQb MkdQK_MkdQK dBjeNBRBK_");
 
-            Assert.Pass();
+            //Assertions
+            Assert.Contains("hDDFl", result);
+            Assert.Contains("P'fhN", result);
+            Assert.Contains("cZIGOkZIsg", result);
         }
     }
 }

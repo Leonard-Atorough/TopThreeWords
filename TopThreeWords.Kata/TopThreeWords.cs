@@ -3,10 +3,10 @@ using System.Collections.Generic;
 
 namespace TopThreeWords.Kata
 {
-    public class TopThreeWords
+    public static class TopThreeWords
     {
 
-        public List<string> FindTopThreeWords()
+        public static List<string> FindTopThreeWords(string input)
         {
             throw new NotImplementedException();
         }
