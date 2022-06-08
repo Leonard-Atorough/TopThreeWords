@@ -284,9 +284,9 @@ namespace TopThreeWords.Tests
                 "KtoM / dBjeNBRBK qwFrUMvDsL,KtoM; jAX'Cfns bPRWxTRXT.MfnmsnC KtoM mhJ'r qwFrUMvDsL:jAX'Cfns MkdQK_ydxQb MfnmsnC.wNGdDVp!MkdQK qwFrUMvDsL.wNGdDVp ydxQb adOZIYw?mhJ'r ydxQb, adOZIYw, adOZIYw?iHJmNjG: ydxQb.iHJmNjG KtoM wNGdDVp_iHJmNjG!MkdQK,bPRWxTRXT qwFrUMvDsL:ydxQb MkdQK_MkdQK dBjeNBRBK_");
 
             //Assertions
-            Assert.Contains("hDDFl", result);
-            Assert.Contains("P'fhN", result);
-            Assert.Contains("cZIGOkZIsg", result);
+            Assert.Contains("dfcorpw", result);
+            Assert.Contains("hmdzxjjbi", result);
+            Assert.Contains("hzamxwappi", result);
         }
     }
 }
