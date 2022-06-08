@@ -16,6 +16,7 @@ The goal of the Kata is to improve Test driven design thinking. To succeed it is
 - Any other characters (e.g. `#`, `\`, `/` , `.` ...) are not part of a word and should be treated as whitespace.
 - Matches should be case-insensitive, and the words in the result should be lowercased.
 - If a text contains fewer than three unique words, then either the top-2 or top-1 words should be returned, or an empty array if a text contains no words.
+- In the event that multiple words have equal count, return the words in Alphabetical order (i.e. order primarily by count then by alphabetical order)
 
 
 
